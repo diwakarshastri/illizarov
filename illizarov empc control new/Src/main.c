@@ -331,26 +331,26 @@ int main(void)
 					position|
 						|
 				 	pS	|_________________________________________._._._._.
-						|  				       '  											 '
-						|				     '   												'
-						|				   ' 						 						'
-						|				 '													 '
-						|				'	 													'---------> dynamic positon of the motor 
-						|         	 	       '							 	'
-						|			     '  									 '
-						|			    '   									 '
-						|		   	   '  								'
+						|  				       '  											 
+						|				     '   												
+						|				   ' 						 						
+						|				 '													 
+						|				'---------> dynamic positon of the motor 
+						|         	 	       '							 	
+						|			     '  									 
+						|			    '   									 
+						|		   	   '  								
 						|_______________________ -'-----> pOn 
 						|	            	|
 						|		      ' |
 						|             	    ' 	|
-						|             '    	|-----> pulse to turn on the motor 	
-						| 	'       	|
-						|     '           	|
-						|    '              	|
-						|'                  	|
-						|_______________________|_____________________________
-						|<---------tOn--------->|											 t->
+						|            	  '    	|-----> pulse to turn on the motor 	
+						|      	       '       	|
+						|           '           |
+						|       '              	|
+						|    '                  |
+						|_'_____________________|_____________________________
+						|<---------tOn--------->|			 t->
 					
 					pOn -> motor position at the moment when pulse is turned off
 					tOn -> duration for which motor is turned on 
